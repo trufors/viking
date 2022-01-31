@@ -1,0 +1,122 @@
+*,
+::after,
+::before{
+    box-sizing: border-box;
+}
+body{
+    background-color: #0E0E0E;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.section__page{
+    padding: 100px 0;
+}
+.title{
+    text-align: center;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 100px;
+    font-weight: 400;
+}
+.header{
+    background-image: url(../images/headerbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height:100vh;
+    text-align: center;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1220px;
+    padding: 0 10px;
+}
+.header__inner {
+    min-height: 100vh;
+}
+.menu__list {
+    display:flex;
+    padding: 50px 0 58px;
+    justify-content: center;
+    
+    /* margin: 0 100px; */
+}
+.menu__list-item{
+    padding: 0 13px;
+}
+.menu__list-link{
+    font-size: 36px;
+    line-height: 43px;
+    transition: color .5s;
+}
+.menu__list-link:hover{
+    color: #85ccdc;
+    text-decoration: underline;
+
+}
+.header__logo{
+    padding-top: 178px;
+}
+.about__inner{
+    display: flex;
+}
+
+.about_info {
+    width: 375px;
+    margin-right: 50px;
+    flex: none;
+}
+.about__info-item {
+    list-style: none;
+    margin-bottom: 25px;
+}
+.about__info-item span {
+    display: block;
+}
+.about__text p{
+    margin-bottom: 25px;
+}
+.video{
+    background-image: url(../images/videobg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height:100vh;
+    text-align: right;
+}
+.video__text{
+    font-family: Roboto Condensed;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 84px;
+    color: #85ccdc;
+    padding-top: 440px;
+    margin-bottom: 40px;
+}
+.video__text span{
+    display: block;
+    padding-right: 300px;
+}
+.video__btn{
+    padding-left: 112px;
+    position: relative;
+    margin-right: 240px;
+}
+.video__btn::after{
+    content: '';
+    width: 100px;
+    height: 100px;
+    top: -40px;
+
+    left: 0;
+    background-image: url(../images/youtubebtn.svg);
+    position: absolute;
+}
